@@ -1,11 +1,14 @@
 {
   "name": "shrink-text",
   "version": "0.5.0",
-  "description": "Automatically shrinks text to fit its containing element with vanilla JS",
-  "main": "index.js",
+  "description": "Recursively shrinks text to fit its containing element with vanilla JS",
+  "main": "dist/shrink-text.min.js",
   "repository": {
     "url": "https://github.com/boyum/shrink-text.git",
     "type": "git"
+  },
+  "scripts": {
+    "build": "uglifyjs-folder ./src -o ./dist/shrink-text.min.js"
   },
   "author": "Sindre <sindre.boyum@gmail.com>",
   "license": "MIT",
