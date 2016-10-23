@@ -1,6 +1,6 @@
 # shrink-text
 Recursively shrinks text to fit its containing element with vanilla JS.
-[Check out the demo](https://boyum.github.io/shrink-text/demo/)
+[Check out the demo.](https://boyum.github.io/shrink-text/demo/)
 
 ## Install
 ### From npm
